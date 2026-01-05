@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook Graph API Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>Facebook Graph API Profile Viewer</h1>
+    <p>OAuth 2.0 Token-Based Authentication</p>
+  </header>
+
+  <main class="container">
+
+    <section class="controls">
+      <label for="tokenInput">Access Token:</label>
+      <input id="tokenInput" type="text" placeholder="Paste your Facebook Access Token here..." />
+      
+      <div class="buttons">
+        <button id="btnProfile">Get Full Profile</button>
+        <button id="btnPicture">Get Profile Picture</button>
+        <button id="btnClear" class="secondary">Clear</button>
+      </div>
+    </section>
+
+    <section class="status">
+      <div id="loading" class="hidden">Loading...</div>
+      <div id="errorBox" class="hidden"></div>
+    </section>
+
+    <section id="results" class="results">
+      <!-- Dynamic content goes here -->
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Powered by Meta Facebook Graph API v19.0</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
