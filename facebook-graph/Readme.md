@@ -7,7 +7,7 @@ This project is intended for **educational and authorized use only** and follows
 
 ---
 
-## Features
+Features
 
 - Facebook Login via OAuth 2.0
 - Authorization Code Flow (`response_type=code`)
@@ -21,7 +21,7 @@ This project is intended for **educational and authorized use only** and follows
 
 ---
 
-## Tech Stack
+Tech Stack
 
 - Facebook Graph API
 - OAuth 2.0
@@ -31,10 +31,11 @@ This project is intended for **educational and authorized use only** and follows
 
 ---
 
-## OAuth Login URL
+OAuth Login URL
 
 The app redirects users to Facebook’s OAuth dialog:
 
 ```text
 https://www.facebook.com/v19.0/dialog/oauth
+
 
