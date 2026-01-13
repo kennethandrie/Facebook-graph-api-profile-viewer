@@ -27,7 +27,7 @@ This project is intended for **educational and authorized use only** and follows
 - OAuth 2.0
 - JavaScript
 - HTML & CSS
-- Backend (Node.js / PHP / Python – required for token exchange)
+- Backend (Node.js)
 
 ---
 
@@ -37,3 +37,4 @@ The app redirects users to Facebook’s OAuth dialog:
 
 ```text
 https://www.facebook.com/v19.0/dialog/oauth
+
