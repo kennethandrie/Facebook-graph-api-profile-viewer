@@ -128,16 +128,6 @@ GET /me/picture?redirect=false&type=large
 
 ---
 
-## 📸 Screenshots (Optional)
-
-You can add screenshots here if you want:
-
-```
-![Screenshot](screenshot.png)
-```
-
----
-
 🧩 Possible Enhancements
 
 * Token expiration detection
@@ -153,3 +143,4 @@ You can add screenshots here if you want:
 This project is open-source and available under the **MIT License**.
 
 ---
+
